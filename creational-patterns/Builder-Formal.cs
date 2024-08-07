@@ -1,3 +1,7 @@
+// Builder Design Pattern suits for work with COMPOSITE products.
+// It allows to build different complex objects STEP BY STEP. 
+// And at any moment and step we can get the result product out of builders.
+// NOTE: If a final product can be done in one step then consider to use Factory Design Pattern.
 public interface IBuilder{
     public void Method1();
     public void Method2();
